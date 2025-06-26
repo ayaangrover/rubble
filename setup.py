@@ -2,15 +2,14 @@ from setuptools import setup
 
 setup(
     name='rubble-lang',         
-    version='0.1.9',
+    version='0.2.0',
     description='An unreadable programming language.',
     author='Ayaan Grover',
     author_email='ayaangrover@gmail.com',
     py_modules=['rubble', 'encode'],
     entry_points={
         'console_scripts': [
-            'rubble=rubble:run',
-            'rubble-encode=encode:encode_to_rubble',
+            'rubble=rubble:main'
         ],
     },
     classifiers=[
