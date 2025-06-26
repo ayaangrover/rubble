@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='rubble-lang',         
-    version='0.1.8',
+    version='0.1.9',
     description='An unreadable programming language.',
     author='Ayaan Grover',
     author_email='ayaangrover@gmail.com',
