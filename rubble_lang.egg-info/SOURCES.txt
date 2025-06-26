@@ -1,4 +1,3 @@
-encode.py
 rubble.py
 setup.py
 rubble_lang.egg-info/PKG-INFO
