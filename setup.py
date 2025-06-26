@@ -5,7 +5,7 @@ setup(
     version='0.1.0',
     description='An unreadable programming language.',
     author='Ayaan Grover',
-    author_email='your-email@example.com',
+    author_email='ayaangrover@gmail.com',
     py_modules=['rubble', 'encode'],
     entry_points={
         'console_scripts': [
