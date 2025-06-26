@@ -1,8 +1,11 @@
 from setuptools import setup
 
 setup(
-    name='rubble',
-    version='0.1',
+    name='rubble-lang',         
+    version='0.1.0',
+    description='An unreadable programming language.',
+    author='Ayaan Grover',
+    author_email='your-email@example.com',
     py_modules=['rubble', 'encode'],
     entry_points={
         'console_scripts': [
@@ -10,4 +13,10 @@ setup(
             'rubble-encode=encode:encode_to_rubble',
         ],
     },
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.7',
 )
