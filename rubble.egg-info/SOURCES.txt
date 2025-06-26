@@ -1,7 +1,0 @@
-rubble.py
-setup.py
-rubble.egg-info/PKG-INFO
-rubble.egg-info/SOURCES.txt
-rubble.egg-info/dependency_links.txt
-rubble.egg-info/entry_points.txt
-rubble.egg-info/top_level.txt
